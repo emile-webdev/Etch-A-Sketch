@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:darkslateblue;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    margin: 30px auto;
+    background-color:darkslateblue;
+}
+.btn {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.btn:hover {
+    opacity: 1;
+}
+
+#message, #draw {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+#canvas {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 30px auto 20px auto;
+}
+
+
+
+
+
+
+
